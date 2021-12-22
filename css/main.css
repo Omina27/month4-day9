@@ -1,0 +1,27 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: darkmagenta;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 26px;
+}
+
+.news__item {
+    width: 200px;
+    border: 4px solid #8b008b;
+    background-color: #fff;
+    padding: 7px;
+    align-items: center;
+    border-radius: 7px;
+}
